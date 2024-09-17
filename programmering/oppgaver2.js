@@ -87,8 +87,11 @@ console.log("5673 + 234 = " + add(5673,234));
     NB du skal ikke endre på people, bare bruke det som den inneholder.
 */
 console.log("Oppgave: E");
-let newPeople = [2,1,0]
-console.log(newPeople);
+for (let index = people.length-1 ; index >= 0; index--) {
+    const person = people[index];
+    console.log(person);
+    
+}
 
 /*
     Oppgave: F
@@ -102,9 +105,6 @@ const tlfNummer = [19873564,15678923,67435129];
     Oppgave: G
     Skriv ut bare det siste telefon numeret i listen din. 
 */
-const nummerEn = tlfNummer[0];
-const nummerTo = tlfNummer[1];
-const nummerTre = tlfNummer[2];
 const lastNumber = tlfNummer.length-1;
 console.log(lastNumber);
 /*
@@ -114,3 +114,4 @@ console.log(lastNumber);
 
 let personer = [["Christian", "Simonsen"], ["Tony", "Bergholtz"]]
 
+console.log(personer[0[1]]+[1[1]])
