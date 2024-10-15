@@ -47,11 +47,10 @@ const max = 99;
 for (let index = 0; index < max; index++) 
   console.log(index + " flasker med brus i kassa");
   console.log(index + " flasker med brus i kassa");
- 
+
   console.log(
     "Ta en ut, drikk den opp." + (index - 1) + " flasker med brus i kassa"
   );
-  console.log("");
 
 console.log("Ingen flere flasker med brus i kassa");
 
