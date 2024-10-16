@@ -30,12 +30,12 @@ for(let index = 0; index < people.length; index++){
     * mmilimeter regn som faller 
 */
 console.log("Oppgave: A");
-const hoursInDay = 24;
-const minutsInHour = 60;
-const secondsInMinut = 60;
-let saftMiks = "2 deler saft 5 deler vann";
+const HOURS_IN_A_DAY = 24;
+const MINUTES_IN_AN_HOUR = 60;
+const SECONDS_IN_A_MINUTE = 60;
+let saftMiks = '3:5';
 let daysUntilBDay = 189;
-const rainMm = "3 mm"
+let rainMm = "3 mm"
 
 
 /*
@@ -50,11 +50,11 @@ const rainMm = "3 mm"
     const antallDL = dlInCoups * 4.5;
 */
 console.log("Oppgave: B");
-const secToHour = secondsInMinut * minutsInHour;
-let hourResult = 2.5 * secToHour;
+const SECONDS_CALC = SECONDS_IN_A_MINUTE * MINUTES_IN_AN_HOUR;
+let hourResult = 2.5 * SECONDS_CALC;
 console.log(hourResult);
-const minToHour = minutsInHour * hoursInDay;
-let minutToDays = 123 * minToHour;
+const MINUTES_CALC = MINUTES_IN_AN_HOUR * HOURS_IN_A_DAY;
+let minutToDays = 123 * MINUTES_CALC;
 console.log(minutToDays);
 
 
